@@ -5,3 +5,9 @@ describe('Split Array function', function() {
   });
   
 });
+
+describe('Merge Sort', function(){
+  it('is able to merge two sorted arrays into one sorted array', function(){
+    expect( merge([[1, 2, 7], [3, 5, 8]]) ).toEqual( [1, 2, 3, 5, 7, 8] );
+  });
+});
